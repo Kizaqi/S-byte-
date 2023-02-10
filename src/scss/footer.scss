@@ -1,0 +1,101 @@
+.footer {
+    min-height: 715px;
+
+    &__row {
+        display: flex;
+
+        .left {
+            display: flex;
+            flex-direction: column;
+            width: 35%;
+            background-image: url(../img/footer/bg-footer-01.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: $color-secondary;
+            min-height: 715px;
+            padding: 70px 50px;
+
+            .content {
+
+                &__bottom {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: auto;
+
+                    span {
+                        padding: 25px 0;
+                    }
+                }
+            }
+        }
+
+        .right {
+            width: 65%;
+            background-image: url(../img/footer/bg-footer-02.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: $color-secondary;
+            min-height: 715px;
+            padding: 70px 50px;
+
+            .form {
+                max-width: 625px;
+                width: 100%;
+
+                .names {
+                    display: flex;
+                    justify-content: space-between;
+                    padding-top: 40px;
+
+                    input {
+                        background-color: transparent;
+                        color: $color-secondary;
+                        border: 1px solid $color-secondary;
+                        padding: 15px 20px;
+                        border-radius: 20px;
+                        width: 49%;
+
+                        &::placeholder {
+                            color: $color-secondary;
+
+                        }
+                    }
+                }
+
+                textarea {
+
+                    margin-top: 15px;
+                    color: $color-secondary;
+                    width: 100%;
+                    background-color: transparent;
+                    border: 1px solid $color-secondary;
+                    padding: 15px 20px;
+                    border-radius: 20px;
+
+
+                    &::placeholder {
+                        color: $color-secondary;
+
+                    }
+                }
+            }
+
+            .contact {
+                margin-top: 150px;
+
+                .social {
+                    padding-top: 10px;
+
+                    a {
+                        padding: 15px;
+                        font-size: 20px;
+                        color: $color-secondary;
+                    }
+                }
+
+            }
+        }
+    }
+}

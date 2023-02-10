@@ -1,16 +1,18 @@
 .main {
     &__row {
         display: flex;
+        flex-wrap: wrap;
 
         .left {
-            width: 30%;
+            width: 50%;
             background-image: url(../img/main/bg-section-left.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             color: $color-secondary;
 
             .item {
-                padding: 20px;
+                max-width: 471px;
+                padding: 20px 10px 0 50px;
 
                 .title {
                     padding-bottom: 30px;
@@ -19,7 +21,7 @@
         }
 
         .right {
-            width: 70%;
+            width: 50%;
 
             .item {
                 background-image: url(../img/main/bg-section-right-01.jpg);
