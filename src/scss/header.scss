@@ -1,0 +1,42 @@
+.header {
+
+    &__row {
+        display: flex;
+
+        .left {
+            background-image: url(../img/header/01.jpg);
+            width: 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center
+        }
+
+    }
+
+    .right {
+        position: relative;
+        top: 20px;
+        left: 30px;
+
+        .content {
+            max-width: 358px;
+            margin: 100px;
+            width: 100%;
+            color: $color-first;
+
+            .title {
+                line-height: 135%;
+                padding-bottom: 30px;
+            }
+
+            .description {
+
+                p:first-child {
+                    padding-bottom: 30px;
+
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,50 @@
+$fontbig: 700;
+$color-first: #262f32;
+$color-secondary: #ffffff;
+$font-awesome: "Font Awesome 6 Free";
+
+.text {
+    &__18 {
+        font-size: 18px;
+
+    }
+
+    &__53 {
+        font-size: 53px;
+    }
+}
+
+span {
+    font-weight: 700;
+}
+
+p {
+    line-height: 25px;
+
+}
+
+.white {
+    color: $color-secondary;
+
+    a {
+        display: inline-block;
+        padding: 20px 40px;
+        margin-top: 50px;
+        border-radius: 20px;
+        border: 1px solid $color-secondary;
+        color: $color-secondary;
+    }
+}
+
+.black {
+    color: $color-first;
+
+    a {
+        display: inline-block;
+        padding: 20px 40px;
+        margin-top: 50px;
+        border-radius: 20px;
+        border: 1px solid $color-first;
+        color: $color-first;
+    }
+}

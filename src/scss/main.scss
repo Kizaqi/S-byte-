@@ -1,0 +1,48 @@
+.main {
+    &__row {
+        display: flex;
+
+        .left {
+            width: 30%;
+            background-image: url(../img/main/bg-section-left.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: $color-secondary;
+
+            .item {
+                padding: 20px;
+
+                .title {
+                    padding-bottom: 30px;
+                }
+            }
+        }
+
+        .right {
+            width: 70%;
+
+            .item {
+                background-image: url(../img/main/bg-section-right-01.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                .content {
+                    padding: 20px;
+                }
+
+                p {
+                    max-width: 575px;
+                    width: 100%;
+                    padding: 20px 0 40px 0;
+                }
+            }
+
+            .bg {
+                background-image: url(../img/main/bg-section-right-02.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+
+            }
+        }
+    }
+}
